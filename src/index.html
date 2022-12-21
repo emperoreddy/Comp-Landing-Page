@@ -18,7 +18,9 @@
         <!-- LINKS -->
         <div class="flex">
           <ul class="list-none flex gap-10 text-gray-300">
-            <li class="select-text text-blue-400 font-semibold"><a href="#home">Home</a></li>
+            <li class="select-text text-blue-400 font-semibold">
+              <a href="#home">Home</a>
+            </li>
             <li><a href="#hero">Products</a></li>
             <li><a href="#signup">Sign up</a></li>
           </ul>
@@ -26,24 +28,48 @@
       </nav>
 
       <!-- HERO -->
-      <div class="flex mt-20 pb-32 justify-center"> 
+      <div class="flex mt-20 pb-32 justify-center">
         <!-- LEFT INFO -->
-        <div class="flex flex-col  mt-12 w-[55%] gap-2">
-          <h1 class="text-5xl font-extrabold">This website is awesome</h1>
-          <p class="text-gray-300 w-2/3">
-            This website has some subtext that goes her eunder the main title.
-            It's smaller font and the color is lowerst contrast.
+        <div class="flex flex-col mt-12 w-[45%] gap-2">
+          <h1 class="text-5xl font-extrabold pb-5 leading-[1.1]">
+            Your
+            <span
+              class="bg-gradient-to-r from-green-400 to-cyan-400 text-transparent bg-clip-text"
+              >Trusted </span
+            >Source for Quality Components
+          </h1>
+          <p class="text-gray-300 w-[80%] leading-relaxed">
+            Welcome to COMP online store! We offer a wide selection of computer
+            hardware at affordable prices. Our team of experts is dedicated to
+            providing top-quality products and expert support. Thank you for
+            choosing us – we look forward to serving you!
           </p>
           <!-- BUTTON -->
-          <div class=" pt-12">
-            <button class=" bg-blue-primary rounded-md py-4 w-36 font-medium hover:bg-blue-600 transition ease-out duration-300">
+          <div class="pt-12">
+            <button
+              class="bg-blue-primary rounded-md py-4 w-36 font-medium hover:bg-blue-600 transition ease-out duration-300 shadow-cyan-400"
+            >
               Sign up
             </button>
           </div>
         </div>
 
         <!-- RIGHT INFO IMG -->
-        <img src="assets/gaming-pc.png" alt="gaming pc" class="h-72" />
+        <div class="relative mt-10">
+          <img src="assets/gaming-pc.png" alt="gaming pc" class="h-72 z-20 relative" />
+          <svg
+            class="absolute h-[30rem] -inset-x-32 -inset-y-24 z-10"
+            id="10015.io"
+            viewBox="0 0 480 480"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+          >
+            <path
+              fill="#3378ff"
+              d="M411,337.5Q353,435,238,439Q123,443,90,341.5Q57,240,94.5,146.5Q132,53,232,67Q332,81,400.5,160.5Q469,240,411,337.5Z"
+            />
+          </svg>
+        </div>
       </div>
     </header>
 
@@ -51,37 +77,65 @@
       <!-- INFO -->
       <div class="flex flex-col mt-14" id="hero">
         <span class="text-4xl font-extrabold mx-auto items-center mb-16"
-          >Some random information.</span
+          >Products we sell</span
         >
 
         <div class="flex flex-1 gap-5 mx-72 justify-center">
-          <div class="flex flex-col items-center flex-1 my-auto">
-            <div class="border-blue-primary rounded-md w-52 h-36 p-6 border-4">
-              <img src="assets/graphics-card.png" alt="graphics card" />
+          <a
+            href=""
+            class="hover:scale-110 transition duration-300 ease-in-out"
+          >
+            <div class="flex flex-col items-center flex-1 my-auto">
+              <div
+                class="border-blue-primary rounded-md w-52 h-36 p-6 border-4 relative"
+              >
+                <img src="assets/graphics-card.png" alt="graphics card" />
+              </div>
+              <p class="text-gray-800 mt-2">Graphics Cards</p>
             </div>
-            <p class="text-gray-800 mt-2">Graphics Cards</p>
-          </div>
+          </a>
 
-          <div class="flex flex-col flex-1 items-center my-auto">
-            <div class="border-blue-primary rounded-md w-52 h-36 p-6 border-4">
-              <img src="assets/cpu.png" alt="cpu" />
+          <a
+            href=""
+            class="hover:scale-110 transition duration-300 ease-in-out"
+          >
+            <div class="flex flex-col flex-1 items-center my-auto">
+              <div
+                class="border-blue-primary rounded-md w-52 h-36 p-6 border-4"
+              >
+                <img src="assets/cpu.png" alt="cpu" />
+              </div>
+              <p class="text-gray-800 mt-2">CPUs</p>
             </div>
-            <p class="text-gray-800 mt-2">CPUs</p>
-          </div>
+          </a>
 
-          <div class="flex flex-col flex-1 items-center my-auto">
-            <div class="border-blue-primary rounded-md w-52 h-36 p-6 border-4">
-              <img src="assets/motherboard.png" class="" alt="motherboard" />
+          <a
+            href=""
+            class="hover:scale-110 transition duration-300 ease-in-out"
+          >
+            <div class="flex flex-col flex-1 items-center my-auto">
+              <div
+                class="border-blue-primary rounded-md w-52 h-36 p-6 border-4"
+              >
+                <img src="assets/motherboard.png" class="" alt="motherboard" />
+              </div>
+              <p class="text-gray-800 mt-2">Motherboards</p>
             </div>
-            <p class="text-gray-800 mt-2">Motherboards</p>
-          </div>
+          </a>
 
-          <div class="flex flex-col flex-1 mt-0 items-center my-auto">
-            <div class="border-blue-primary rounded-md w-52 h-36 p-6 border-4">
-              <img src="assets/ram.png" class="" alt="ram" />
+          <a
+            href=""
+            class="hover:scale-110 transition duration-300 ease-in-out"
+          >
+            <div class="flex flex-col flex-1 mt-0 items-center my-auto">
+              <div
+                class="border-blue-primary rounded-md w-52 h-36 p-6 border-4"
+              >
+                <img src="assets/ram.png" class="" alt="ram" />
+              </div>
+              <p class="text-gray-800 mt-2">RAMs</p>
             </div>
-            <p class="text-gray-800 mt-2">RAMs</p>
-          </div>
+          </a>
         </div>
       </div>
 
@@ -89,13 +143,18 @@
       <div
         class="container flex justify-center px-10 font-light italic text-justify text-4xl text-slate-800 bg-[#E5E7EB] h-[30rem] mt-32 items-center"
       >
-        <div class="w-[65%]">
+        <div class="w-[67%] text-3xl">
           <p>
-            This is an inspiring quote , or a testimonial from a customer. Maybe
-            it's just filling up space , or maybe people will actually read it.
-            Who knows? All I know is that it looks nice.
+            "I recently purchased a new computer from COMP and I couldn't be
+            happier with my experience. From the moment I walked in the door,
+            the staff was incredibly helpful and knowledgeable. They listened to
+            my needs and helped me find the perfect setup for my budget. The
+            prices were unbeatable and the quality of the components was
+            top-notch. I will definitely be returning to COMP for all of my
+            computer hardware needs in the future. Thank you, COMP, for making
+            my experience so seamless and enjoyable!"
           </p>
-          <p class="flex justify-end font-bold not-italic text-3xl">
+          <p class="flex justify-end font-bold not-italic text-2xl mt-4">
             -Thor, God of Thunder
           </p>
         </div>
@@ -103,10 +162,11 @@
 
       <!-- SIGN UP FOOTER -->
       <div
-        class="container flex my-32 text-white bg-blue-primary rounded-lg h-44 w-[70%] mx-auto" id="signup"
+        class="container flex my-32 text-white bg-blue-primary rounded-lg h-44 w-[70%] mx-auto"
+        id="signup"
       >
         <!-- Left side -->
-        <div class="flex flex-col  my-auto mx-auto">
+        <div class="flex flex-col my-auto mx-auto">
           <p class="text-2xl font-semibold">Call to action! It's time!</p>
           <p class="text-gray-200 font-light text-lg">
             Sign up for our product by clicking that button right over there!
@@ -123,11 +183,12 @@
         </div>
       </div>
 
-        <!-- copyright section -->
-        <footer class="container flex bg-slate-800 h-28 text-white justify-center items-center">
-          <span class="text-gray-300">Copyright © Amortitu Bogdan 2022</span>
-        </footer>
-
+      <!-- copyright section -->
+      <footer
+        class="container flex bg-slate-800 h-28 text-white justify-center items-center"
+      >
+        <span class="text-gray-300">Copyright © Amortitu Bogdan 2022</span>
+      </footer>
     </main>
   </body>
 </html>
