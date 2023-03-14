@@ -65,8 +65,8 @@
     "util-deprecate": "^1.0.2"
   },
   "scripts": {
-    "watch": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
-    "build": "npx tailwindcss -o build.css --minify"
+    "watch": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "build": "npx tailwindcss -o ./dist/build.css --minify"
   },
   "keywords": [],
   "author": "",
