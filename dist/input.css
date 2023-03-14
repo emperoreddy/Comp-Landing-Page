@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1 {
+  clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0% 100%);
+  opacity: 0;
+  transform: translateY(100px);
+}
+
+.description-header {
+  clip-path: polygon(0 100%, 0 100%, 0 2%, 0 0);
+  opacity: 0;
+  transform: translateX(-70px);
+}
+
+.header-button {
+  clip-path: polygon(0 100%, 0 100%, 0 2%, 0 0);
+  opacity: 0;
+  transform: translateX(-70px);
+}
+
+.header-pc {
+  transform: scale(0.1);
+  clip-path: circle(0% at 50% 50%);
+}
